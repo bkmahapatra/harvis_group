@@ -1,0 +1,27 @@
+.about_body{
+    margin: 50px 80px;
+}
+.component_title{
+    font-weight: var(--weight-semibold);
+    font-size: var(--h2-text);
+}
+.component_desc{
+    font-weight: var(--weight-regular);
+    font-size: var(--text-regular);
+}
+.aboutus_section{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr;
+}
+.vision_mission_section{
+    margin: 50px 0px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+   
+}
+.component_heading_bar{
+    background-color: black;
+    height: 4px;
+    width: 100px;
+    margin-bottom: 10px;
+}
