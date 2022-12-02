@@ -1,0 +1,25 @@
+.Nav_body{
+    width: 100%;
+    height: 80px;
+    background-color: aquamarine;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 40px;
+}
+.app_logo a,.nav_item a{
+    text-decoration: none;
+}
+.nav_items li{
+    list-style: none;
+    margin: 0px 10px;
+}
+.nav_menu{
+    display: flex;
+}
+.nav_items{
+    display: flex;
+    margin-right: 40px;
+}
