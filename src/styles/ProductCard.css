@@ -1,0 +1,35 @@
+.card_body {
+    padding: 20px;
+    border: 1px solid black;
+    width: 300px;
+    text-align: center;
+    
+    box-shadow: 0px 5px 5px 0px rgb(114, 114, 114);
+}
+
+.img {
+    background-color: gray;
+    height: 230px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.card_title{
+    font-size: var(--h3-text);
+    font-weight: var(--weight-medium);
+}
+.card_desc {
+    margin: 10px 0px;
+    font-size: var(--text-regular);
+    font-weight: var(--weight-regular);
+}
+
+.card_readmore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.readmore_icon {
+    margin-left: 10px;
+}

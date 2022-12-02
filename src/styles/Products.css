@@ -1,0 +1,19 @@
+section{
+    margin: 50px 80px;
+}
+
+.section_header{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 2.5fr;
+    text-align: justify;
+}
+.section_header .component_title{
+    
+}
+.section_body{
+    margin: 50px 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 40px;
+    justify-items: center;
+}

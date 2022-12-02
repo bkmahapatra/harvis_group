@@ -28,10 +28,10 @@ const About = () => {
       <div className="vision_mission_section">
         <div className="vision_sec">
           <div className="about_component">
-          <div>
-            <div className="component_heading_bar"></div>
-            <div className="component_title">Vision</div>
-          </div>
+            <div>
+              <div className="component_heading_bar"></div>
+              <div className="component_title">Vision</div>
+            </div>
             <p className="component_desc">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -45,10 +45,10 @@ const About = () => {
         <div></div>
         <div className="mission_sec">
           <div className="about_component">
-          <div>
-            <div className="component_heading_bar"></div>
-            <div className="component_title">Mission</div>
-          </div>
+            <div>
+              <div className="component_heading_bar"></div>
+              <div className="component_title">Mission</div>
+            </div>
             <p className="component_desc">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
