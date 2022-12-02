@@ -1,5 +1,6 @@
 section{
-    margin: 50px 80px;
+    margin: 0px 80px;
+    padding: 60px 0px;
 }
 
 .section_header{
@@ -10,7 +11,7 @@ section{
 .section_header .component_title{
     
 }
-.section_body{
+.section_body_multi{
     margin: 50px 50px;
     display: grid;
     grid-template-columns: auto auto auto;

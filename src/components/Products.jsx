@@ -19,7 +19,7 @@ const Products = () => {
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.
         </p>
       </div>
-      <div className="section_body">
+      <div className="section_body section_body_multi ">
         <ProductCard
           title={"Bitumen"}
           desc={

@@ -21,6 +21,7 @@ const About = () => {
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
+        <div></div>
         <div className="about_image">
           <img src="" alt="" />
         </div>

@@ -1,5 +1,6 @@
 .about_body{
-    margin: 50px 80px;
+    margin: 10px 80px;
+    padding: 80px 0px;
 }
 .component_title{
     font-weight: var(--weight-semibold);
@@ -25,4 +26,10 @@
     height: 4px;
     width: 100px;
     margin-bottom: 20px;
+}
+
+.about_image{
+    height: 400px;
+    width: 400px;
+    background-color: blueviolet;
 }

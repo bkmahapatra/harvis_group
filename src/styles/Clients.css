@@ -1,0 +1,12 @@
+.client_section_body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 0px 0px 0px;
+}
+.client_images{
+    margin: 15px;
+    height: 180px;
+    width: 200px;
+    background-color: blueviolet;
+}

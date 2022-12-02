@@ -8,11 +8,12 @@ const Navbar = () => {
         <div className="nav_menu">
             <ul className="nav_items">
                 <li className="nav_item"><a href="/">Home</a></li>
-                <li className="nav_item"><a href="/">About Us</a></li>
-                <li className="nav_item"><a href="/">Services</a></li>
-                <li className="nav_item"><a href="/">Projects</a></li>
-                <li className="nav_item"><a href="/">Our Team</a></li>
-                <li className="nav_item"><a href="/">Contact Us</a></li> 
+                <li className="nav_item"><a href="#about">About Us</a></li>
+                <li className="nav_item"><a href="#products">Products</a></li>
+                <li className="nav_item"><a href="#services">Services</a></li>
+                <li className="nav_item"><a href="#projects">Projects</a></li>
+                <li className="nav_item"><a href="#teams">Our Team</a></li>
+                <li className="nav_item"><a href="#contact">Contact Us</a></li> 
             </ul>
             <div className="get_quote_btn nav-btn">Get Quote</div>
         </div>
