@@ -1,4 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Raleway:wght@400;500;600;700&display=swap'); 
+:root{
+  /* font size */
+  --h1-text: 48px;
+  --text-regular: 16px;
+  --text-medium: 20px;
+
+  /* font weight */
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-extra-bold: 800;
+}
 *{
   box-sizing: border-box;
   margin: 0;

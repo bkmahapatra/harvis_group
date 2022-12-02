@@ -8,6 +8,8 @@
     align-items: center;
 
     padding: 0px 40px;
+    position: fixed;
+    z-index: 100;
 }
 .app_logo a,.nav_item a{
     text-decoration: none;
@@ -15,11 +17,21 @@
 .nav_items li{
     list-style: none;
     margin: 0px 10px;
+    font-weight: var(--weight-regular);
+    font-size: var(--text-regular);
 }
 .nav_menu{
     display: flex;
+    align-items: center;
 }
 .nav_items{
     display: flex;
     margin-right: 40px;
+}
+.get_quote_btn{
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: var(--text-regular);
+    font-weight: var(--weight-medium);
+    padding: 5px 20px;
 }

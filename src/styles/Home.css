@@ -1,0 +1,31 @@
+.home_body{
+    height: 100vh;
+    background-color: rgb(176, 248, 248);
+    position: relative;
+    z-index: 10;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.home_headline{
+    font-size: var(--h1-text);
+    font-weight: var(--weight-semibold);
+}
+.btn_know_more{
+    font-size: var(--text-regular);
+    font-weight: var(--weight-medium);
+    
+    border: 2px solid black;
+    border-radius: 5px;
+
+    padding: 5px 10px;
+    margin: 20px 0px;
+}
+.home_down_arr{
+    position: absolute;
+    bottom: 20px;
+    font-size: 20px;
+}
