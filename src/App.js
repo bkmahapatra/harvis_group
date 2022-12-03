@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Products from './components/Products';
 import Projects from './components/Projects';
 import Services from './components/Services';
+import Teams from './components/Teams';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Products/>
       <Services/>
       <Projects/>
+      <Teams/>
       <Clients/>
     </div>
   );
