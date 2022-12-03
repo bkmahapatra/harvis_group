@@ -13,6 +13,12 @@
   --weight-semibold: 600;
   --weight-bold: 700;
   --weight-extra-bold: 800;
+
+  /* colors */
+  --primary-color: #D03042;
+  --white-color: #FFFFFF;
+  --black-color: #000000;
+  --background-color: #d9d9d9;
 }
 *{
   box-sizing: border-box;

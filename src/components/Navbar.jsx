@@ -1,4 +1,6 @@
 import '../styles/Navbar.css'
+import {Link} from 'react-router-dom';
+
 const Navbar = () => {
   return (
     <div className="Nav_body">
@@ -15,7 +17,8 @@ const Navbar = () => {
                 <li className="nav_item"><a href="#teams">Our Team</a></li>
                 <li className="nav_item"><a href="#contact">Contact Us</a></li> 
             </ul>
-            <div className="get_quote_btn nav-btn">Get Quote</div>
+            <Link className="get_quote_btn nav-btn" to={'/getquote'}>GetQuote</Link>
+            {/* <div ></div> */}
         </div>
     </div>
   )
