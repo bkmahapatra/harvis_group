@@ -22,13 +22,13 @@
    
 }
 .component_heading_bar{
-    background-color: black;
+    background-color: var(--primary-color);
     height: 4px;
     width: 100px;
     margin-bottom: 20px;
 }
 
-.about_image{
+.about_image img{
     height: 400px;
     width: 400px;
     background-color: blueviolet;

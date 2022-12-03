@@ -25,36 +25,42 @@ const Products = () => {
           desc={
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           }
+          img={require("../resources/products/bitumen.png")}
         />
         <ProductCard
           title={"Emulsion"}
           desc={
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           }
+          img={require("../resources/products/emulsion.png")}
         />
         <ProductCard
           title={"Steel"}
           desc={
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           }
+          img={require("../resources/products/steel.png")}
         />
         <ProductCard
           title={"Cement"}
           desc={
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           }
+          img={require("../resources/products/cement.png")}
         />
         <ProductCard
           title={"Oil"}
           desc={
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           }
+          img={require("../resources/products/oil.png")}
         />
         <ProductCard
           title={"Petrolium"}
           desc={
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           }
+          img={require("../resources/products/petroleum.png")}
         />
       </div>
     </section>

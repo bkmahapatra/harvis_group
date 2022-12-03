@@ -23,7 +23,7 @@ const About = () => {
         </div>
         <div></div>
         <div className="about_image">
-          <img src="" alt="" />
+          <img src={require("../resources/aboutus/aboutus3.png")} alt="" />
         </div>
       </div>
       <div className="vision_mission_section">

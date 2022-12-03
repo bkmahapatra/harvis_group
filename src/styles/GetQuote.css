@@ -1,0 +1,54 @@
+.getquote_body{
+    min-height: 100vh;
+}
+.section_header{
+    margin-top: 40px;
+}
+.getquote_body .section_body{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 2fr;
+    margin-top: 40px;
+}
+input:focus{
+    outline-style: none;
+}
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #7F7F7F;
+    font-size: var(--text-regular);
+    padding: 15px 5px 5px 5px;
+    color: var(--text-light);
+    font-weight: var(--weight-medium);
+}
+.form_title{
+    font-size: var(--h3-text);
+    font-weight: var(--weight-semibold);
+}
+.quote_image{
+    height: 600px;
+    width: 400px;
+    background-color: var(--background-color);
+}
+.quote_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.form_privacy{
+    /* text-decoration: none; */
+    color: #7F7F7F;
+}
+.form_agreement{
+    color: var(--text-light);
+    font-size: var(--text-regular);
+    margin: 25px 5px;
+}
+.form_submit span{
+    margin: 0px 5px;
+}
+.form_submit{
+    display: flex;
+    align-items: center;
+}

@@ -5,11 +5,13 @@ import App from "./App";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import GetQuote from "./components/GetQuote";
 import Home from "./components/Home";
+import ErrorPage from "./components/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <ErrorPage/>,
     children: [
       {
         path: "/",
@@ -19,6 +21,11 @@ const router = createBrowserRouter([
         path: "/getquote",
         element: <GetQuote />,
       },
+      {
+        path: "/about",
+        element: <GetQuote />,
+      },
+    
     ],
   },
 ]);

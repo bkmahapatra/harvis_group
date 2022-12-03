@@ -1,6 +1,6 @@
 .home_body{
     height: 100vh;
-    background-color: rgb(176, 248, 248);
+    
     position: relative;
     z-index: 10;
 
@@ -10,22 +10,30 @@
     flex-direction: column;
     
 }
+#page_vdo{
+    width: 99.9%;
+    position: absolute;
+    z-index: -1;
+}
 .home_headline{
     font-size: var(--h1-text);
     font-weight: var(--weight-semibold);
+    color: var(--white-color);
+    text-shadow: 0px 0px 5px black;
 }
 .btn_know_more{
     font-size: var(--text-regular);
     font-weight: var(--weight-medium);
-    
-    border: 2px solid black;
+    color: var(--white-color);
+    border: 2px solid #FFFFFF;
     border-radius: 5px;
 
     padding: 5px 10px;
     margin: 20px 0px;
 }
-.home_down_arr{
+.home_down_arr a{
     position: absolute;
     bottom: 20px;
     font-size: 20px;
+    color: var(--white-color);
 }

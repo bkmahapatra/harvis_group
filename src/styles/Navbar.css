@@ -1,7 +1,6 @@
 .Nav_body{
     width: 100%;
     height: 70px;
-    background-color: aquamarine;
 
     display: flex;
     justify-content: space-between;
@@ -10,9 +9,11 @@
     padding: 0px 40px;
     position: fixed;
     z-index: 100;
+    background-color: #ffffff62;
 }
 .app_logo a,.nav_item a{
     text-decoration: none;
+    color: var(--white-color);
 }
 .nav_items li{
     list-style: none;
@@ -28,10 +29,28 @@
     display: flex;
     margin-right: 40px;
 }
+.nav_items li:hover a{
+    color: var(--primary-color);
+}
+.nav_items li:hover{
+    transform: scale(1.1,1.1);
+}
+.get_quote_btn:hover{
+    /* color: var(--primary-color); */
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
 .get_quote_btn{
-    border: 2px solid black;
+    text-decoration: none;
+    border: 2px solid #ffffff;
     border-radius: 5px;
     font-size: var(--text-regular);
     font-weight: var(--weight-medium);
     padding: 5px 20px;
+    color: var(--white-color);
+}
+
+
+.white_bg{
+    background-color: var(--black-color);
 }
