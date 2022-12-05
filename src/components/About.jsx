@@ -1,6 +1,7 @@
 import "../styles/About.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import Carousel from "react-bootstrap/Carousel";
+import config from "../config.json";
 
 import React from "react";
 
@@ -11,17 +12,11 @@ const About = () => {
         <div className="about_component">
           <div>
             <div className="component_heading_bar"></div>
-            <div className="component_title">About Us</div>
+            <div className="component_title">
+              {config.about_section.section_heading}
+            </div>
           </div>
-          <p className="component_desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+          <p className="component_desc">{config.about_section.section_desc}</p>
         </div>
         <div></div>
         <div className="about_image">
@@ -78,14 +73,7 @@ const About = () => {
               <div className="component_heading_bar"></div>
               <div className="component_title">Vision</div>
             </div>
-            <p className="component_desc">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
-            </p>
+            <p className="component_desc">{config.about_section.vision}</p>
           </div>
         </div>
         <div></div>
@@ -95,14 +83,7 @@ const About = () => {
               <div className="component_heading_bar"></div>
               <div className="component_title">Mission</div>
             </div>
-            <p className="component_desc">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
-            </p>
+            <p className="component_desc">{config.about_section.mission}</p>
           </div>
         </div>
       </div>

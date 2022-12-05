@@ -9,6 +9,7 @@ import Teams from "../components/Teams";
 import { BsArrowDownCircle } from "react-icons/bs";
 import Contact from "./Contact";
 import HarvisVdo from "../resources/Harvis.mp4";
+import config from '../config.json';
 
 const Home = () => {
   useEffect(() => {
@@ -34,8 +35,8 @@ const Home = () => {
         </video>
         <div className="banner_gradient"></div>
 
-        <div className="home_headline">Lorem ipsum dolor sit amet.</div>
-        <div className="home_btn btn_know_more">Know More</div>
+        <div className="home_headline">{config.home_section.home_title}</div>
+        <div className="home_btn btn_know_more">{config.home_section.home_btn_text}</div>
         <div className="home_down_arr">
           <a href="#about">
             <BsArrowDownCircle />

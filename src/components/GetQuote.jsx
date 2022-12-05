@@ -5,19 +5,7 @@ import {BsArrowRightCircle} from 'react-icons/bs'
 
 const GetQuote = () => {
   document.querySelector(".Nav_body").classList.add("white_bg");
-  // useEffect(()=>{
-  //   window.addEventListener("load",()=>{
-  //     // if(document.documentElement.scrollTop+window.innerHeight >= document.querySelector(".getquote_body").scrollHeight){
-        
-  //     //   console.log("oh yes")
-  //     // }
-  //     // else{
-  //     //   document.querySelector(".Nav_body").classList.remove("white_bg");
-        
-  //     // }
-      
-  //   })
-  // })
+  
   return (
     <section className="getquote_body" id="getquote">
       <div className="section_header">

@@ -1,51 +1,153 @@
-{
+{   
     "clientName": "Harvis group",
+    "home_section":{
+        "home_title":"You Dream It. We Build It.",
+        "home_btn_text":"Know More"
+    },
+    "about_section":{
+        "section_heading":"About Us",
+        "section_desc":"Harvis is a multi-domain infrastructure project development firm. Our project significance focuses on road transportation engineering projects, which include the building and maintenance of roads, highways, flyovers, and bridges as required by the projects. It also offers architectural, procurement, and construction (EPC) services in rapidly expanding industries. We intend to expand into new business divisions while reinforcing existing ones and investing in infrastructure.",
+        "vision":"A crucial participant in the infrastructure sector for the nation. Through our dedication to quality and safety, we strive to inculcate the highest levels of business values and ethics.",
+        "mission":"We have consolidated our presence in the Bitumen Sector in order to prevent repetitive repairs and maintenance."
+    },
+    "product_section":{
+        "section_heading":"Our Excellent Product",
+        "section_desc":"Quality. Safety. Reliability. Every time."
+    },
     "products": {
         "bitumen": {
             "product_name": "Bitumen",
-            "product_image": "../src/resources/products/bitumen.png",
+            "product_image": "../resources/products/bitumen.png",
             "product_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-            "sub_products": {
-                "vg30": {
+            "sub_products": [
+                {
                     "sub_product_title": "VG 30 Bitumen",
+                    "sub_product_image1": "../resources/products/bitumen.png",
+                    "sub_product_image2": "",
+                    "sub_product_desc1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "sub_product_desc2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                },
+                {
+                    "sub_poduct_title": "VG 40 Bitumen",
                     "sub_product_image1": "",
                     "sub_product_image2": "",
                     "sub_product_desc1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-                    "sub_product_desc2": ""
+                    "sub_product_desc2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                }
+            ]
+        },
+        "emulsion": {
+            "product_name": "Bitumen",
+            "product_image": "../src/resources/products/emulsion.png",
+            "product_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "sub_products": [
+                {
+                    "sub_product_title": "VG 30 Bitumen",
+                    "sub_product_image1": "",
+                    "sub_product_image2": "",
+                    "sub_product_desc1": "11111111Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "sub_product_desc2": "11111111111"
                 },
-                "vg40": {
+                {
+                    "sub_product_title": "VG 30 Bitumen",
+                    "sub_product_image1": "",
+                    "sub_product_image2": "",
+                    "sub_product_desc1": "222222222Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "sub_product_desc2": "2222222"
+                },
+                {
                     "sub_product_title": "VG 30 Bitumen",
                     "sub_product_image1": "",
                     "sub_product_image2": "",
                     "sub_product_desc1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
                     "sub_product_desc2": ""
                 }
-            }
-        },
-        "emulsion": {
-            "product_name": "Bitumen",
-            "product_image": "../src/resources/products/emulsion.png",
-            "product_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                
+            ]
         },
         "steel": {
             "product_name": "Steel",
             "product_image": "../src/resources/products/steel.png",
-            "product_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            "product_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "sub_products": [
+                {
+                    "sub_product_title": "VG 30 Bitumen",
+                    "sub_product_image1": "",
+                    "sub_product_image2": "",
+                    "sub_product_desc1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "sub_product_desc2": ""
+                },
+                {
+                    "sub_poduct_title": "VG 40 Bitumen",
+                    "sub_product_image1": "",
+                    "sub_product_image2": "",
+                    "sub_product_desc1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "sub_product_desc2": ""
+                }
+            ]
         },
         "cement": {
             "product_name": "Cement",
             "product_image": "../src/resources/products/cement.png",
-            "product_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            "product_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "sub_products": [
+                {
+                    "sub_product_title": "VG 30 Bitumen",
+                    "sub_product_image1": "",
+                    "sub_product_image2": "",
+                    "sub_product_desc1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "sub_product_desc2": ""
+                },
+                {
+                    "sub_poduct_title": "VG 40 Bitumen",
+                    "sub_product_image1": "",
+                    "sub_product_image2": "",
+                    "sub_product_desc1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "sub_product_desc2": ""
+                }
+            ]
         },
         "oil": {
             "product_name": "Oil",
             "product_image": "../src/resources/products/oil.png",
-            "product_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            "product_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "sub_products": [
+                {
+                    "sub_product_title": "VG 30 Bitumen",
+                    "sub_product_image1": "",
+                    "sub_product_image2": "",
+                    "sub_product_desc1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "sub_product_desc2": ""
+                },
+                {
+                    "sub_poduct_title": "VG 40 Bitumen",
+                    "sub_product_image1": "",
+                    "sub_product_image2": "",
+                    "sub_product_desc1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "sub_product_desc2": ""
+                }
+            ]
         },
         "petrolium": {
             "product_name": "Petrolium",
             "product_image": "../src/resources/products/petroleum.png",
-            "product_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            "product_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "sub_products": [
+                {
+                    "sub_product_title": "VG 30 Bitumen",
+                    "sub_product_image1": "",
+                    "sub_product_image2": "",
+                    "sub_product_desc1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "sub_product_desc2": ""
+                },
+                {
+                    "sub_poduct_title": "VG 40 Bitumen",
+                    "sub_product_image1": "",
+                    "sub_product_image2": "",
+                    "sub_product_desc1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "sub_product_desc2": ""
+                }
+            ]
         }
     }
 }
