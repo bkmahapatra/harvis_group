@@ -36,7 +36,7 @@ const Home = () => {
         <div className="banner_gradient"></div>
 
         <div className="home_headline">{config.home_section.home_title}</div>
-        <div className="home_btn btn_know_more">{config.home_section.home_btn_text}</div>
+        <div className="home_btn btn_know_more"><a href="#about">{config.home_section.home_btn_text}</a></div>
         <div className="home_down_arr">
           <a href="#about">
             <BsArrowDownCircle />

@@ -1,5 +1,6 @@
 import React from "react";
-import '../styles/ProductCard.css'
+import "../styles/ProductCard.css";
+import { Link } from "react-router-dom";
 import { BsArrowRightCircle } from "react-icons/bs";
 
 const ProductCard = (props) => {
@@ -11,7 +12,9 @@ const ProductCard = (props) => {
       <h3 className="card_title">{props.title}</h3>
       <p className="card_desc">{props.desc}</p>
       <div className="card_readmore">
-        Read More <BsArrowRightCircle className="readmore_icon"/>
+        <Link to={props.title.toLowerCase()} className="readmore_links">
+          Read More <BsArrowRightCircle className="readmore_icon" />
+        </Link>
       </div>
     </div>
   );

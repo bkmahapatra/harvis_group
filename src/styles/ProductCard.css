@@ -1,6 +1,7 @@
 .card_body {
     padding: 20px;
     border: 1px solid black;
+    border-radius: 5px;
     width: 300px;
     text-align: center;
     
@@ -29,7 +30,9 @@
     justify-content: center;
     margin-bottom: 10px;
 }
-
+.readmore_links{
+    text-decoration: none;
+}
 .readmore_icon {
     margin-left: 10px;
 }

@@ -39,7 +39,7 @@
     transform: scale(1.1,1.1);
 }
 .get_quote_btn:hover{
-    /* color: var(--primary-color); */
+    color: var(--white-color);
     background-color: var(--primary-color);
     border-color: var(--primary-color);
 }
