@@ -1,3 +1,4 @@
+
 .about_body{
     margin: 10px 80px;
     padding: 80px 0px;
@@ -27,9 +28,14 @@
     width: 100px;
     margin-bottom: 20px;
 }
-
-.about_image img{
+.about_image{
+    padding: 15px;
     height: 400px;
     width: 400px;
+    background: linear-gradient(135deg,var(--primary-color) 5.66%,var(--white-color) 54.9%);
+}
+.about_image img{
+    /* height: 400px;
+    width: 400px; */
     background-color: blueviolet;
 }

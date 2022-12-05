@@ -1,5 +1,6 @@
 import '../styles/Navbar.css'
 import {useEffect} from 'react';
+import { HashLink } from 'react-router-hash-link';
 import {Link} from 'react-router-dom';
 
 const Navbar = () => {
@@ -11,13 +12,14 @@ const Navbar = () => {
         </div>
         <div className="nav_menu">
             <ul className="nav_items">
-                <li className="nav_item"><a href="/">Home</a></li>
-                <li className="nav_item"><a href="/#about">About Us</a></li>
-                <li className="nav_item"><a href="#products">Products</a></li>
-                <li className="nav_item"><a href="#services">Services</a></li>
-                <li className="nav_item"><a href="#projects">Projects</a></li>
-                <li className="nav_item"><a href="#teams">Our Team</a></li>
-                <li className="nav_item"><a href="#contact">Contact Us</a></li> 
+                <li className="nav_item"><Link to="/">Home</Link></li>
+                {/* <li className="nav_item"><a href="/#about">About Us</a></li> */}
+                <li className="nav_item"><HashLink to="/#about">About Us</HashLink></li>
+                <li className="nav_item"><HashLink to="/#products">Products</HashLink></li>
+                <li className="nav_item"><HashLink to="/#services">Services</HashLink></li>
+                <li className="nav_item"><HashLink to="/#projects">Projects</HashLink></li>
+                <li className="nav_item"><HashLink to="/#teams">Our Team</HashLink></li>
+                <li className="nav_item"><HashLink to="/#contact">Contact Us</HashLink></li> 
             </ul>
             <Link className="get_quote_btn nav-btn" to={'/getquote'}>Get Quote</Link>
             {/* <div ></div> */}
