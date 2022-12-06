@@ -12,9 +12,11 @@ section{
     
 }
 .section_body_multi{
-    margin: 50px 50px;
-    display: grid;
+    margin: 50px 0px;
+    /* display: grid;
     grid-template-columns: auto auto auto;
-    row-gap: 40px;
-    justify-items: center;
+    row-gap: 40px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }

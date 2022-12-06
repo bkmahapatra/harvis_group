@@ -18,7 +18,7 @@
         "bitumen": {
             "product_name": "Bitumen",
             "product_image": "../resources/products/bitumen.png",
-            "product_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "product_desc": "Bitumen is a petroleum-derived binding agent. Bitumen is renowned for its high acrylate strength and resistance to water and oil spills. often utilized as a surface for roadways, parking lots, and driveways, bitumen is the best binder for asphalt.",
             "sub_products": [
                 {
                     "sub_product_title": "VG 30 Bitumen",
@@ -28,7 +28,7 @@
                     "sub_product_desc2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
                 },
                 {
-                    "sub_poduct_title": "VG 40 Bitumen",
+                    "sub_product_title": "VG 40 Bitumen",
                     "sub_product_image1": "",
                     "sub_product_image2": "",
                     "sub_product_desc1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -39,7 +39,7 @@
         "emulsion": {
             "product_name": "Bitumen",
             "product_image": "../src/resources/products/emulsion.png",
-            "product_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "product_desc": "Emulsions are colloidal dispersion systems in which one liquid is distributed in another as minuscule droplets without being mixed.",
             "sub_products": [
                 {
                     "sub_product_title": "VG 30 Bitumen",
@@ -68,7 +68,7 @@
         "steel": {
             "product_name": "Steel",
             "product_image": "../src/resources/products/steel.png",
-            "product_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "product_desc": "Steel is often utilised in the construction of bridges and tunnels. A smooth roadway built to current standards requires a huge portion of rolled steel materials.",
             "sub_products": [
                 {
                     "sub_product_title": "VG 30 Bitumen",
@@ -78,7 +78,7 @@
                     "sub_product_desc2": ""
                 },
                 {
-                    "sub_poduct_title": "VG 40 Bitumen",
+                    "sub_product_title": "VG 40 Bitumen",
                     "sub_product_image1": "",
                     "sub_product_image2": "",
                     "sub_product_desc1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -89,7 +89,7 @@
         "cement": {
             "product_name": "Cement",
             "product_image": "../src/resources/products/cement.png",
-            "product_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "product_desc": "A cement is an adhesive, which is a chemical compound used in building that hardens, sets, and adheres to other materials to bind them together.",
             "sub_products": [
                 {
                     "sub_product_title": "VG 30 Bitumen",
@@ -99,7 +99,7 @@
                     "sub_product_desc2": ""
                 },
                 {
-                    "sub_poduct_title": "VG 40 Bitumen",
+                    "sub_product_title": "VG 40 Bitumen",
                     "sub_product_image1": "",
                     "sub_product_image2": "",
                     "sub_product_desc1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -110,7 +110,7 @@
         "oil": {
             "product_name": "Oil",
             "product_image": "../src/resources/products/oil.png",
-            "product_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "product_desc": "Oil is an asphalt substance that is used to seal and preserve roads. It comprises of a fairly thick fluid sprayed to the road surface with a sprayer. It's viscous and black.",
             "sub_products": [
                 {
                     "sub_product_title": "VG 30 Bitumen",
@@ -120,7 +120,7 @@
                     "sub_product_desc2": ""
                 },
                 {
-                    "sub_poduct_title": "VG 40 Bitumen",
+                    "sub_product_title": "VG 40 Bitumen",
                     "sub_product_image1": "",
                     "sub_product_image2": "",
                     "sub_product_desc1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -131,7 +131,7 @@
         "petrolium": {
             "product_name": "Petrolium",
             "product_image": "../src/resources/products/petroleum.png",
-            "product_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "product_desc": "Petroleum is primarily utilized in road building, it has strong adhesion, waterproofing, hardness, and durability capabilities, This permits the road to support the weight of the traffic and Road damage can be remediated.",
             "sub_products": [
                 {
                     "sub_product_title": "VG 30 Bitumen",
@@ -141,7 +141,7 @@
                     "sub_product_desc2": ""
                 },
                 {
-                    "sub_poduct_title": "VG 40 Bitumen",
+                    "sub_product_title": "VG 40 Bitumen",
                     "sub_product_image1": "",
                     "sub_product_image2": "",
                     "sub_product_desc1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",

@@ -19,44 +19,36 @@ const Products = () => {
       <div className="section_body section_body_multi ">
         <ProductCard
           title={"Bitumen"}
-          desc={
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          }
+          desc={config.products.bitumen.product_desc}
           img={require("../resources/products/bitumen.png")}
         />
         <ProductCard
           title={"Emulsion"}
-          desc={
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          }
+          desc={config.products.emulsion.product_desc}
           img={require("../resources/products/emulsion.png")}
         />
         <ProductCard
           title={"Steel"}
-          desc={
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          }
+          desc={config.products.steel.product_desc}
+
           img={require("../resources/products/steel.png")}
         />
         <ProductCard
           title={"Cement"}
-          desc={
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          }
+          desc={config.products.cement.product_desc}
+
           img={require("../resources/products/cement.png")}
         />
         <ProductCard
           title={"Oil"}
-          desc={
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          }
+          desc={config.products.oil.product_desc}
+
           img={require("../resources/products/oil.png")}
         />
         <ProductCard
           title={"Petrolium"}
-          desc={
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          }
+          desc={config.products.petrolium.product_desc}
+
           img={require("../resources/products/petroleum.png")}
         />
       </div>

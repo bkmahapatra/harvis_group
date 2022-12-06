@@ -9,7 +9,7 @@ import Teams from "../components/Teams";
 import { BsArrowDownCircle } from "react-icons/bs";
 import Contact from "./Contact";
 import HarvisVdo from "../resources/Harvis.mp4";
-import config from '../config.json';
+import config from "../config.json";
 
 const Home = () => {
   useEffect(() => {
@@ -30,13 +30,17 @@ const Home = () => {
   return (
     <>
       <div className="home_body">
-        <video autoPlay loop muted id="page_vdo">
-          <source src={HarvisVdo} type="video/mp4" />
-        </video>
-        <div className="banner_gradient"></div>
+        <div className="page_vdo">
+          <div className="banner_gradient"></div>
+          <video autoPlay loop muted id="vdo_file">
+            <source src={HarvisVdo} type="video/mp4" className="vdo" />
+          </video>
+        </div>
 
         <div className="home_headline">{config.home_section.home_title}</div>
-        <div className="home_btn btn_know_more"><a href="#about">{config.home_section.home_btn_text}</a></div>
+        <div className="home_btn btn_know_more">
+          <a href="#about">{config.home_section.home_btn_text}</a>
+        </div>
         <div className="home_down_arr">
           <a href="#about">
             <BsArrowDownCircle />
