@@ -9,8 +9,10 @@ const ProductCard = (props) => {
       <div className="img">
         <img className="card_image" src={props.img} alt="" />
       </div>
-      <h3 className="card_title">{props.title}</h3>
-      <p className="card_desc">{props.desc}</p>
+      <div>
+        <h3 className="card_title">{props.title}</h3>
+        <p className="card_desc">{props.desc}</p>
+      </div>
       <div className="card_readmore">
         <Link to={props.title.toLowerCase()} className="readmore_links">
           Read More <BsArrowRightCircle className="readmore_icon" />

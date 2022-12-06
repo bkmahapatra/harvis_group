@@ -52,7 +52,6 @@ const Home = () => {
       <Products />
       <Services />
       <Projects />
-      <Teams />
       <Clients />
       <Contact />
     </>

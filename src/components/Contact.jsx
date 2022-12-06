@@ -8,7 +8,7 @@ const Contact = () => {
         <div>
           <h3 className="contact_title">HARVIS</h3>
           <p className="contact_address">
-            62, LEVEL, 3, S, KARIAPPA RD, BASAVANAGUDI, BERNGALURU, KARNATAKA
+            62, LEVEL, 3, S, KARIAPPA RD, BASAVANAGUDI, BENGALURU, KARNATAKA
             560004, INDIA
           </p>
         </div>

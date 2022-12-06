@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 import {BsArrowRightCircle} from 'react-icons/bs'
 
 const GetQuote = () => {
-  document.querySelector(".Nav_body").classList.add("white_bg");
+  // document.querySelector(".Nav_body").classList.add("white_bg");
   
   return (
     <section className="getquote_body" id="getquote">

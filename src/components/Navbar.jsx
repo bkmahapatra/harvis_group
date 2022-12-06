@@ -27,9 +27,6 @@ const Navbar = () => {
             <HashLink to="/#projects">Projects</HashLink>
           </li>
           <li className="nav_item">
-            <HashLink to="/#teams">Our Team</HashLink>
-          </li>
-          <li className="nav_item">
             <HashLink to="/#contact">Contact Us</HashLink>
           </li>
         </ul>

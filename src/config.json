@@ -11,8 +11,20 @@
         "mission":"We have consolidated our presence in the Bitumen Sector in order to prevent repetitive repairs and maintenance."
     },
     "product_section":{
-        "section_heading":"Our Excellent Product",
+        "section_heading":"Our Product",
         "section_desc":"Quality. Safety. Reliability. Every time."
+    },
+    "services_section":{
+        "section_heading":"Our Sevices",
+        "section_desc":"Harvis services provide you with access to global production capacity, We can get rid of the lengthy lead times, unpredictability, and higher prices generally connected with strategic sourcing by utilizing our worldwide network of production facilities, distributed manufacturing services and warehouses."
+    },
+    "projec_section":{
+        "section_heading":"Our Project",
+        "section_desc":""
+    },
+    "client_section":{
+        "section_heading":"Our Clients",
+        "section_desc": ""
     },
     "products": {
         "bitumen": {
