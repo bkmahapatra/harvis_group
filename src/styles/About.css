@@ -36,8 +36,9 @@
 .about_image {
     height: 400px;
     width: 400px;
+   
     position: relative;
-    background: linear-gradient(135deg, var(--primary-color) 5.66%, var(--white-color) 54.9%);
+    /* background: linear-gradient(135deg, var(--primary-color) 5.66%, var(--white-color) 54.9%); */
 }
 
 .about_image img {  

@@ -18,7 +18,7 @@
         "bitumen": {
             "product_name": "Bitumen",
             "product_image": "../resources/products/bitumen.png",
-            "product_desc": "Bitumen is a petroleum-derived binding agent. Bitumen is renowned for its high acrylate strength and resistance to water and oil spills. often utilized as a surface for roadways, parking lots, and driveways, bitumen is the best binder for asphalt.",
+            "product_desc": "Bitumen is a petroleum-derived binding agent. It is renowned for its high acrylate strength and resistance to water and oil spills. often utilized as a surface for roadways, parking lots, and driveways, it is the best binder for asphalt.",
             "sub_products": [
                 {
                     "sub_product_title": "VG 30 Bitumen",

@@ -1,41 +1,68 @@
 .card_body {
     padding: 20px;
+    position: relative;
     /* border: 1px solid black; */
     border-radius: 5px;
     width: 300px;
+    height: 550px;
     text-align: center;
-    margin-bottom: 50px;
-    box-shadow: 0px 5px 5px 0px rgb(114, 114, 114);
+    /* margin-bottom: 50px; */
+    z-index: 10;
+    background-color: #F3F3F3;
+    box-shadow: 0px 5px 5px 0px rgba(114, 114, 114, 0.39);
 }
 
-.img img{
+.img {
+    position: relative;
+}
+
+.img img {
     height: 230px;
     width: 100%;
+    margin-top: 5px;
+    margin-left: 5px;
     border-radius: 5px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
+    /* box-shadow: -5px -5px 1px 1px ; */
 }
-.card_title{
+
+.img::after {
+    content: "";
+    position: absolute;
+    border-radius: 5px;
+    inset: -.1em;
+    background: linear-gradient(135.16deg, #C95E5A 5.66%, rgba(201, 94, 90, 0) 54.9%);
+    /* filter: blur(0.1em); */
+    z-index: -1;
+}
+
+.card_title {
     font-size: var(--h3-text);
     font-weight: var(--weight-medium);
+    margin-top: 8px;
 }
+
 .card_desc {
     margin: 10px 0px;
-    text-align: justify;
+    text-align: left;
     font-size: var(--text-regular);
     font-weight: var(--weight-regular);
 }
 
 .card_readmore {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-    
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: 5px;
+    z-index: 200;
 }
-.readmore_links{
+
+.readmore_links {
     text-decoration: none;
     color: var(--primary-color);
 }
+
 .readmore_icon {
     margin-left: 10px;
 }
