@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="Nav_body">
       <div className="app_logo">
-        <a href="/">HARVIS</a>
+        <a href="/"><img src={require("../resources/applogo.png")} alt="" /></a>
       </div>
       <div className="nav_menu">
         <ul className="nav_items">
