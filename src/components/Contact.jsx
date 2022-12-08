@@ -11,13 +11,22 @@ const Contact = () => {
             62, LEVEL, 3, S, KARIAPPA RD, BASAVANAGUDI, BENGALURU, KARNATAKA
             560004, INDIA
           </p>
+          <div className="contact_btns">
+            <div className="contact_us">
+              <a href="tel:+918040356827">Contact Us</a>
+            </div>
+            <div className="mail_us">
+              <a href="mailto:harviisinfra@gmail.com">Mail Us</a>
+            </div>
+          </div>
         </div>
       </div>
       <div className="contact_mapview">
         <div class="mapouter">
           <div class="gmap_canvas">
             <iframe
-              class="gmap_iframe"
+              title="mymap"
+              className="gmap_iframe"
               width="550"
               frameborder="0"
               scrolling="no"

@@ -1,11 +1,11 @@
-import React,     {useEffect} from "react";
+import React, { useEffect } from "react";
 import "../styles/GetQuote.css";
-import {Link} from 'react-router-dom'
-import {BsArrowRightCircle} from 'react-icons/bs'
+import { Link } from "react-router-dom";
+import { BsArrowRightCircle } from "react-icons/bs";
 
 const GetQuote = () => {
   // document.querySelector(".Nav_body").classList.add("white_bg");
-  
+
   return (
     <section className="getquote_body" id="getquote">
       <div className="section_header">
@@ -15,11 +15,10 @@ const GetQuote = () => {
         </div>
         <div></div>
         <p className="component_desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.
+          Harvis is a global manufacturer that can assist you in increasing
+          supply chain efficiency, quality, and value. it delivers best-in-class
+          lead times. precision components, capital goods, and consumer items,
+          independent of category, product, or scale.
         </p>
       </div>
       <div className="section_body">
@@ -56,10 +55,15 @@ const GetQuote = () => {
           />
           <div className="form_agreement">
             By submitting this form I consent to processing my personal data as
-            described in the <Link className="form_privacy" to={'/privacy'}>Privacy Policy</Link>.
+            described in the{" "}
+            <Link className="form_privacy" to={"/privacy"}>
+              Privacy Policy
+            </Link>
+            .
           </div>
           <div className="form_submit">
-            <span>Submit</span><BsArrowRightCircle/>
+            <span>Submit</span>
+            <BsArrowRightCircle />
           </div>
         </div>
       </div>
