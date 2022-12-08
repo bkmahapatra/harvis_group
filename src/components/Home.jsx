@@ -5,10 +5,10 @@ import Clients from "../components/Clients";
 import Products from "../components/Products";
 import Projects from "../components/Projects";
 import Services from "../components/Services";
-import Teams from "../components/Teams";
 import { BsArrowDownCircle } from "react-icons/bs";
 import Contact from "./Contact";
 import HarvisVdo from "../resources/Harvis.mp4";
+import BannerVdo from '../resources/harvis_banner.mp4';
 import config from "../config.json";
 
 const Home = () => {
@@ -33,7 +33,7 @@ const Home = () => {
         <div className="page_vdo">
           <div className="banner_gradient"></div>
           <video autoPlay loop muted id="vdo_file">
-            <source src={HarvisVdo} type="video/mp4" className="vdo" />
+            <source src={BannerVdo} type="video/mp4" className="vdo" />
           </video>
         </div>
 
