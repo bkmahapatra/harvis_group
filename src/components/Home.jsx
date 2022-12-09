@@ -8,7 +8,7 @@ import Services from "../components/Services";
 import { BsArrowDownCircle } from "react-icons/bs";
 import Contact from "./Contact";
 import HarvisVdo from "../resources/Harvis.mp4";
-import BannerVdo from '../resources/harvis_banner.mp4';
+import BannerVdo from "../resources/harvis_banner.mp4";
 import config from "../config.json";
 
 const Home = () => {
@@ -30,22 +30,23 @@ const Home = () => {
   return (
     <>
       <div className="home_body">
-        <div className="page_vdo">
-          <div className="banner_gradient"></div>
-          <video autoPlay loop muted id="vdo_file">
-            <source src={BannerVdo} type="video/mp4" className="vdo" />
-          </video>
+        <video autoPlay loop muted id="vdo_file">
+          <source src={BannerVdo} type="video/mp4" className="vdo" />
+        </video>
+
+        <div className="home_txt">
+          <div className="home_headline">{config.home_section.home_title}</div>
+          <div className="home_btn btn_know_more">
+            <a href="#about">{config.home_section.home_btn_text}</a>
+          </div>
+          
         </div>
 
-        <div className="home_headline">{config.home_section.home_title}</div>
-        <div className="home_btn btn_know_more">
-          <a href="#about">{config.home_section.home_btn_text}</a>
-        </div>
         <div className="home_down_arr">
-          <a href="#about">
-            <BsArrowDownCircle />
-          </a>
-        </div>
+            <a href="#about">
+              <BsArrowDownCircle />
+            </a>
+          </div>
       </div>
       {/* sections */}
       <About />

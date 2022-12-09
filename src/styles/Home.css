@@ -1,5 +1,5 @@
 .home_body{
-    height: 100vh;
+    height: 100%;
     
     position: relative;
     z-index: 10;
@@ -8,24 +8,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: black;
 }
-.page_vdo{
-   height: 100vh;
-   width: 100%;
-   position: absolute;
-   z-index: -1;
+.home_txt{
+    position: absolute;
+    text-align: center;
+
 }
 video {
     width: 99.99%;
 }
-.banner_gradient{
-    height: 100vh;
-    background-color: black;
-    position: absolute;
-    /* opacity: 0.6; */
-    
-}
+ 
 .home_headline{
     font-size: var(--h1-text);
     font-weight: var(--weight-semibold);
