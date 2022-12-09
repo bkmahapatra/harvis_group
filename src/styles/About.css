@@ -45,3 +45,33 @@
     height: 400px;
     width: 400px;
 }
+
+@media only screen and (max-width:400px) {
+    .about_body{
+        margin: 20px 20px;
+        padding: 10px 0px;
+    }
+    .aboutus_section{
+        grid-template-columns: auto;
+    }
+    .vision_mission_section{
+        margin: 20px 0pxa;
+        grid-template-columns: auto;
+    }
+    .about_image{
+        height: auto;
+        width: auto;
+    }
+    .about_image img{
+        height: 100%;
+        width: 100%;
+
+    }
+    .component_heading_bar{
+
+    }
+    .component_desc{
+        margin: 20px 0px;
+        text-align: justify;
+    }
+}
