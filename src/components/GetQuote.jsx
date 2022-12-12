@@ -4,14 +4,16 @@ import { Link } from "react-router-dom";
 import { BsArrowRightCircle } from "react-icons/bs";
 
 const GetQuote = () => {
-  document.querySelector(".Nav_body").classList.add("white_bg");
+  setTimeout(() => {
+    document.querySelector(".Nav_body").classList.add("white_bg");
+  }, 1000);
 
   return (
     <section className="getquote_body" id="getquote">
       <div className="section_header">
         <div>
           <div className="component_heading_bar"></div>
-          <div className="component_title">Request <span>A</span> Quote</div>
+          <div className="component_title">Request A Quote</div>
         </div>
         <div></div>
         <p className="component_desc">

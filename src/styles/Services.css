@@ -1,9 +1,13 @@
 .section_body_services .card_body .card_desc{
    margin-left: 10px;
 }
-.section_body_services .card_body{
-    display: grid;
-    grid-template-columns: 1fr 2.5fr;
-    width: auto;
-    height: auto;
+
+
+@media only screen and (min-width: 400px){
+    .section_body_services .card_body{
+        display: grid;
+        grid-template-columns: 1fr 2.5fr;
+        width: auto;
+        height: auto;
+    }  
 }

@@ -20,7 +20,7 @@ const Services = () => {
         <ProductCard
           title={"Road Infra"}
           desc={
-            "Our project execution expertise generally focuses on engineering projects involving road transportation, building and maintenance of roads, highways, flyovers, and bridges.  In the past, we have carried out infrastructure projects both individually and through joint ventures. In a variety of infrastructure segments, HARVIS has the capacity to bid, carry out, and construct medium and large-scale projects."
+            "Our project execution expertise generally focuses on engineering projects involving road transportation, building and maintenance of roads, highways, flyovers, and bridges.  " //In the past, we have carried out infrastructure projects both individually and through joint ventures. In a variety of infrastructure segments, HARVIS has the capacity to bid, carry out, and construct medium and large-scale projects.
           }
           img={require("../resources/products/roadinfra.png")}
         />

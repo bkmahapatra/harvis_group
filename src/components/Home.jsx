@@ -7,7 +7,6 @@ import Projects from "../components/Projects";
 import Services from "../components/Services";
 import { BsArrowDownCircle } from "react-icons/bs";
 import Contact from "./Contact";
-import HarvisVdo from "../resources/Harvis.mp4";
 import BannerVdo from "../resources/harvis_banner.mp4";
 import config from "../config.json";
 

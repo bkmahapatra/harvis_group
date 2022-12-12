@@ -55,7 +55,7 @@
         grid-template-columns: auto;
     }
     .vision_mission_section{
-        margin: 20px 0pxa;
+        margin: 20px 0px;
         grid-template-columns: auto;
     }
     .about_image{
@@ -73,5 +73,8 @@
     .component_desc{
         margin: 20px 0px;
         text-align: justify;
+    }
+    .component_heading_bar{
+        margin-bottom: 10px;
     }
 }

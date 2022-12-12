@@ -77,8 +77,8 @@
                 
             ]
         },
-        "steel": {
-            "product_name": "Steel",
+        "steel": {    
+           "product_name": "Steel",
             "product_image": "../src/resources/products/steel.png",
             "product_desc": "Steel is often utilised in the construction of bridges and tunnels. A smooth roadway built to current standards requires a huge portion of rolled steel materials.",
             "sub_products": [
